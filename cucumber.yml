@@ -1,0 +1,11 @@
+---
+default: -p pretty -p homolog -p html
+
+homolog: AMBIENTE=homolog
+producao: AMBIENTE=producao
+pretty: --format pretty 
+progress: --format progress
+html: --format html --out=report/relatorio.html
+
+
+
